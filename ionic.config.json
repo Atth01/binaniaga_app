@@ -1,0 +1,7 @@
+{
+  "name": "binaniaga",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
