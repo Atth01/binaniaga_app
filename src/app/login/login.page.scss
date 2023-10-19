@@ -1,0 +1,97 @@
+ion-content {
+    img {
+      height: 130px;
+      margin-top: 30%;
+    }
+    
+  }
+  ion-content {
+    --background: url("../../assets/bg.jpg");
+    position: center;
+    margin-left: 500px;
+  }
+  .logo{
+    display: flex;
+    justify-content: center;
+
+  }
+  .custom-font {
+    font-family: "Consolas", sans-serif;
+  }
+  .title {
+    text-align: center;
+    font-family: "Nunito";
+    color:white;
+    h3 {
+      font-family: "Segoe UI";
+      font-size: 20pt;
+    }
+    h5 {
+        font-family: Segoe UI;
+      }
+    }
+    .reg {
+      text-align: center;
+      h3 {
+        font-family: "Sogoe UI";
+        font-size: 5pt;
+      }
+      h5 {
+        font-family: "Sogoe UI";
+      }
+    }
+    ion-content {
+      .wrap-input {
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 20px;
+        margin-bottom: 26px;
+        margin-left: 20px;
+        margin-right: 20px;
+        box-shadow: 0 10px 30px 0px rgba(0, 145, 255, 0.12);
+      }
+      ion-input {
+        display: block;
+        width: 100%;
+        background: transparent;
+        font-family: Consolas;
+        font-size: 18px;
+        line-height: 1.5;
+        border: none;
+        outline: none;
+        height: 46px;
+        padding: 0 20px 0 23px;
+      }
+      ion-toolbar {
+        --background: transparent;
+      }
+      .container-form-btn {
+        display: flex;
+        justify-content: center;
+      }
+      .form-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 20px;
+        min-width: 160px;
+        height: 42px;
+        background-color: #004377;
+        border-radius: 20px;
+        font-size: 18px;
+        color: #ffff;
+        text-transform: uppercase;
+        padding-top: 5px;
+        transition: all 0.4s;
+        box-shadow: 0 a0px 30px 0px rgba(57, 71, 82, 0.5);
+      }
+      .form-btn:hover {
+        background-color: #28333b;
+        box-shadow: 0 10px 30px 0px rgba(57, 71, 82, 0.8);
+      }
+      .btn {
+        font-size: 18px;
+        color: #0b50ff;
+        text-transform: uppercase;
+      }
+    } 
+       

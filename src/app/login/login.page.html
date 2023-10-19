@@ -1,0 +1,20 @@
+<ion-content>
+  <div class="logo">
+    <img src="../../assets/unbin.png" />
+  </div>
+  <div class="title">
+    <h3>Login</h3>
+  </div>
+  <ion-item class="wrap-input">
+    <ion-input [(ngModel)]="username" placeholder="Username"></ion-input>
+  </ion-item>
+  <ion-item class="wrap-input">
+    <ion-input [(ngModel)]="password" placeholder="Password" type="password"></ion-input>
+  </ion-item>
+  <div class="reg">
+    <h5>Doesn't have an account?<b class="btn" (click)="register()"><u>Register</u></b></h5>
+  </div>
+  <div class="container-form-btn">
+    <button (click)="login()" class="form-btn custom-font"><b>Login</b></button>
+  </div>
+</ion-content>

@@ -1,1 +1,41 @@
+/* Gaya tab-button */
+ion-tab-button {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 
+  /* Gaya khusus untuk tab logo aplikasi */
+  &.qris-tab {
+    position: relative;
+    width: 80px; /* Sesuaikan lebar ikon sesuai kebutuhan */
+    height: 80px; /* Sesuaikan tinggi ikon sesuai kebutuhan */
+    border-radius: 50%;
+    background-color: transparent; /* Hapus warna latar belakang */
+    position: relative;
+    z-index: 2; /* Pastikan ikon QRIS berada di atas tab lain */
+    transition: transform 0.3s ease-in-out; /* Animasi transformasi */
+  }
+
+  /* Gaya ikon QRIS */
+  .qris-icon {
+    width: 80%; /* Sesuaikan lebar sesuai kebutuhan */
+    height: 80%; /* Sesuaikan tinggi sesuai kebutuhan */
+    border-radius: 50%;
+    overflow: hidden;
+
+    img {
+      display: block;
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+
+  /* Hover effect untuk tab */
+  &.qris-tab:hover {
+    .qris-icon {
+      transform: translateY(-10px); /* Menggeser elemen ke atas saat dihover */
+    }
+  }
+}

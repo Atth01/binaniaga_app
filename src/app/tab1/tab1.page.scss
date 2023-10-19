@@ -1,0 +1,81 @@
+ion-content {
+  --ion-background-color: rgb(0, 3, 103);
+}
+ion-header {
+  --background: linear-gradient(to bottom, #0300cb, #000f7d, #0c0096);
+  color: #ffffff;
+}
+
+.custom-header {
+  --background: linear-gradient(to bottom, #0300cb, #000f7d, #0c0096);
+  --ion-color-base: #fff;
+}
+.custom-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+ion-card.custom-card {
+  background: linear-gradient(to bottom, #46a6f0, #0055a7, #0011ff);
+  color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 25px;
+  transition: transform 0.2s;
+  justify-content: center;
+}
+
+ion-card.custom-card:hover {
+  transform: scale(1.08);
+}
+
+ion-card-header.custom-card-header {
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  border-radius: 15px 15px 0 0;
+  text-align: center;
+  padding: 10px 0;
+}
+
+ion-card-title.custom-card-title {
+  font-size: 24px;
+  font-weight: bold;
+  color:white;
+}
+
+ion-card-content.custom-card-content {
+  text-align: center;
+  justify-content: center;
+}
+
+.list-group {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list-group-item {
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  border-radius: 5px;
+  margin: 5px 0;
+  padding: 10px;
+}
+ion-button.custom-logout {
+  border: 2px solid #fff; /* Border putih */
+  color: #fff; /* Warna teks putih */
+  border-radius: 5px;
+}
+
+ion-button.custom-logout:hover {
+  background: #ff0000; /* Warna latar merah pada hover */
+}
+
+ion-img.rounded-image {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 100%; // Lebar gambar mengisi seluruh lebar kartu
+  height: 200%; // Tinggi gambar mengisi seluruh tinggi kartu
+  margin: 10px 0; // Meningkatkan jarak antara gambar dan teks
+}
